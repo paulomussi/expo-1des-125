@@ -31,8 +31,8 @@ function BottomTabs() {
                     //     fontWeight: 300,
                     // },
                 }}
-
             />
+            
             <Tab.Screen 
                 name="StackAtividades" 
                 component={StackAtividades}  

@@ -33,6 +33,36 @@ export default function ListaAtividades() {
             >
                 <Text style={styles.textoBtn}>Atividade 3</Text>
             </TouchableOpacity>
+
+            <TouchableOpacity 
+                style={styles.botao} 
+                onPress={() => navigation.navigate('Atividade03')}
+            >
+                <Text style={styles.textoBtn}>Atividade 4</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity 
+                style={styles.botao} 
+                onPress={() => navigation.navigate('Atividade03')}
+            >
+                <Text style={styles.textoBtn}>Atividade 5</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity 
+                style={styles.botao} 
+                onPress={() => navigation.navigate('Atividade03')}
+            >
+                <Text style={styles.textoBtn}>Atividade 6</Text>
+            </TouchableOpacity>
+
+            <TouchableOpacity 
+                style={styles.botao} 
+                onPress={() => navigation.navigate('Atividade03')}
+            >
+                <Text style={styles.textoBtn}>Atividade 7</Text>
+            </TouchableOpacity>
+
+
         </View>
 
     );

@@ -23,7 +23,7 @@ function StackAtividades() {
       <Stack.Screen
         name="Atividade01"
         component={Atividade01}
-        options={{ title: 'Atividade 1' }}               
+        options={{ title: 'Atividade 1' }}           
       />
       <Stack.Screen name="Atividade02" component={Atividade02} />
       <Stack.Screen name="Atividade03" component={Atividade03} />
