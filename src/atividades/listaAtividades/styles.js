@@ -12,7 +12,8 @@ const styles = StyleSheet.create({
     },
     botao: {
         width: '70%',
-        padding: 10,
+        padding: 5,
+        paddingLeft: 15,
         borderWidth: RFPercentage(0.5),
         borderRadius: 20, 
         marginBottom: 10,
@@ -23,7 +24,7 @@ const styles = StyleSheet.create({
         marginBottom: 30,
     },
     textoBtn: {
-        fontSize: RFPercentage(4),
+        fontSize: RFPercentage(2),
     }
 });
 
